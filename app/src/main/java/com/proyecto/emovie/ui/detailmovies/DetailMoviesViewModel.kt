@@ -1,13 +1,13 @@
-package com.proyecto.emovie.ui.notifications
+package com.proyecto.emovie.ui.detailmovies
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class DetailMoviesViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is detail Fragment"
     }
     val text: LiveData<String> = _text
 }

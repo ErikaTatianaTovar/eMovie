@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">eMovie</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_detail">detail</string>
+    <string name="upcoming_releases">Próximos estrenos</string>
+    <string name="emovie">eMovie</string>
+    <string name="see_trailer">Ver trailer</string>
+    <string name="movie_plot">Argumento de la pelicula</string>
+    <string name="not_fount_movies">No se encontró películas para mostrar</string>
+    <string name="not_found_data_of_movie">No se encontro datos de la pelicula</string>
+    <string name="not_found_data_of_movies">No se encontro datos de las peliculas</string>
 </resources>

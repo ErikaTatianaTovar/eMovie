@@ -9,17 +9,28 @@
         android:id="@+id/navigation_home"
         android:name="com.proyecto.emovie.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+    <action
+        android:id="@+id/action_movieFragment_to_detailMoviesFragment"
+        app:destination="@id/navigation_detail_movies"
+        app:enterAnim="@anim/from_left"
+        app:exitAnim="@anim/to_right"
+        app:popEnterAnim="@anim/from_right"
+        app:popExitAnim="@anim/to_left" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.proyecto.emovie.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_detail_movies"
+        android:name="com.proyecto.emovie.ui.detailmovies.DetailMoviesFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_home" >
+    <action
+        android:id="@+id/action_detailMoviesFragment_pop"
+        app:enterAnim="@anim/from_right"
+        app:exitAnim="@anim/to_left"
+        app:popUpTo="@id/navigation_detail_movies"
+        app:popUpToInclusive="true" />
+    </fragment>
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.proyecto.emovie.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+
 </navigation>
