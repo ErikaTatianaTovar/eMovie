@@ -1,4 +1,4 @@
-package com.proyecto.emovie
+package com.proyecto.emovie.application
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

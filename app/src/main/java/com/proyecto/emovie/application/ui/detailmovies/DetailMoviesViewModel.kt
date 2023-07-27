@@ -1,13 +1,13 @@
-package com.proyecto.emovie.ui.home
+package com.proyecto.emovie.application.ui.detailmovies
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class DetailMoviesViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is detail Fragment"
     }
     val text: LiveData<String> = _text
 }

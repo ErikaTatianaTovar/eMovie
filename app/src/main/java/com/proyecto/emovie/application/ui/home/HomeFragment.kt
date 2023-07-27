@@ -1,4 +1,4 @@
-package com.proyecto.emovie.ui.home
+package com.proyecto.emovie.application.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
