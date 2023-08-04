@@ -13,4 +13,19 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="SplashTheme" parent="Theme.EMovie">
+        <item name="android:windowBackground">@drawable/splash_screen_emovie</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ChipTextAppearance" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bg_chip_text_list</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Emovie.Chip.Choice</item>
+    </style>
+
+    <style name="ThemeOverlay.Emovie.Chip.Choice" parent="">
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
 </resources>

@@ -1,5 +1,5 @@
 package com.proyecto.emovie.infraestructure.dblocal.repositories
-/*
+
 import com.proyecto.emovie.domain.models.Movie
 import com.proyecto.emovie.domain.repositories.dblocal.MovieRepositoryDbLocal
 import com.proyecto.emovie.infraestructure.dblocal.daos.MovieDao
@@ -19,5 +19,3 @@ class MovieRepositoryRoom @Inject constructor(
         return movieDao.insertAll(entities)
     }
 }
-
- */
